@@ -1,0 +1,5 @@
+name: AntiSessionStealer
+main: net.nielsbwashere.src.AntiSessionStealer.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: prevents session stealing

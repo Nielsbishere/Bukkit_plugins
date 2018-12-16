@@ -1,0 +1,24 @@
+name: MythicalEnchants
+main: nielsbwashere.customenchants.src.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a lot of cool enchants
+commands:
+  addCustomEnchant:
+    description: adds a custom enchant to the item in hand 
+  spawnStructure:
+    description: spawns a structure
+  mythicalenchants:
+    description: OP commands only
+permissions:
+   MythicalEnchants.*:
+     description: Gives access to all MythicalEnchants commands
+     children:
+       MythicalEnchants.Enchant: true
+       MythicalEnchants.Commands.addCustomEnchant: true
+   MythicalEnchants.Enchant:
+     description: Allows you to get mythical enchants
+     default: true
+   MythicalEnchants.Commands.addCustomEnchant:
+     description: Allows you to add enchants to your weapon using the command
+     default: false

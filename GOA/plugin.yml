@@ -1,0 +1,22 @@
+ name: GOAPlugin
+ version: 0.0.0.0.5
+ description: The official GOA plugin
+ author: Nyto
+ authors: [nielsbwashere] 
+ website: nielsbwashere.weebly.com
+ main: net.goa.src.Main
+ commands:
+   createChest:
+     description: Creates a chest parent
+   addChest:
+     description: Adds a chest to the fill chest
+   reloadChests:
+     description: Reloads all chests
+   newVillage:
+     description: Creates a new village
+   setSpawn:
+     description: Sets the spawn
+   setName:
+     description: Sets your ingamename
+   village:
+     description: Changes the village

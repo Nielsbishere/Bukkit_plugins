@@ -1,0 +1,14 @@
+name: Kits
+main: nielsbwashere.galaxypvp.src.Core
+version: 1.8.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a kit system
+commands:
+  kits:
+    description: shows you the list of kits
+  addkit:
+    description: adds a kit to the kit list
+permissions:
+   Kits.Add:
+     description: Allows you to add kits to the kit list
+     default: false

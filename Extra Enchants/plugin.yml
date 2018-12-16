@@ -1,0 +1,22 @@
+name: ExtraEnchants
+main: nielsbwashere.extraenchants.src.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a lot of cool enchants
+commands:
+  addExtraEnchant:
+    description: adds a custom enchant to the item in hand
+  extraenchants:
+    description: OP commands only
+permissions:
+   ExtraEnchants.*:
+     description: Gives access to all ExtraEnchants commands
+     children:
+       ExtraEnchants.Enchant: true
+       ExtraEnchants.Commands.addExtraEnchant: true
+   ExtraEnchants.Enchant:
+     description: Allows you to get extra enchants
+     default: true
+   ExtraEnchants.Commands.addExtraEnchant:
+     description: Allows you to add enchants to the item in your hand using the command
+     default: false

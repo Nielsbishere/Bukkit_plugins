@@ -1,0 +1,6 @@
+name: PvPDisconnect
+main: net.nielsbwashere.src.PvPDisconnect.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: spawns in a body when someone leaves while doing PvP
+depend: [WorldGuard]

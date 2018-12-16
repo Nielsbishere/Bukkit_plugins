@@ -1,0 +1,14 @@
+name: Waypoints
+main: nielsbwashere.galaxypvp.src.Core
+version: 1.8.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a waypoint system
+commands:
+  waypoints:
+    description: shows you all of the waypoints and allows you to tp
+  addwaypoint:
+    description: adds a waypoint
+permissions:
+   Waypoints.Add:
+     description: Allows you to add waypoints
+     default: false

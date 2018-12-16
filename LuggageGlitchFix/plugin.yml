@@ -1,0 +1,5 @@
+name: LuggageGlitchFix
+main: net.osomi.src.LuggageGlitchFix.Core
+version: 1.6.4.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: Fixes the luggage spawner glitch

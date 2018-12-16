@@ -1,0 +1,8 @@
+name: MagicBoxes
+main: net.nielsbwashere.src.MagicBoxes.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a special chest system
+commands:
+  magicboxes:
+    description: Allows you to spawn magic boxes

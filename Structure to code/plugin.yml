@@ -1,0 +1,8 @@
+name: Structure2Code
+main: net.nielsbwashere.src.Structure2Code.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: changes blocks into code
+commands:
+  saveStructure:
+    description: Saves the structure

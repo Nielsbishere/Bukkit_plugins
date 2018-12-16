@@ -1,0 +1,28 @@
+name: VillagerShop
+main: net.nielsbwashere.src.VillagerShop.Core
+version: 1.6.4.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: Makes villager shops
+commands:
+  CreateShop:
+    description: Creates a shop
+  DeleteShop:
+    description: Deletes a shop
+  AddItem:
+    description: Adds an item to the shop
+  DeleteItem:
+    description: Removes an item from the shop
+permissions:
+   VillagerShop.DeleteItem:
+     description: Allows you to delete items from the shop
+     default: false
+   VillagerShop.AddItem:
+     description: Allows you to add items to the shop
+     default: false
+   VillagerShop.CreateShop:
+     description: Allows you to create a shop
+     default: false
+   VillagerShop.DeleteShop:
+     description: Allows you to delete a shop
+     default: false
+depend: [Vault]

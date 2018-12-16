@@ -1,0 +1,78 @@
+name: SafeExplosions
+main: net.nielsbwashere.src.SafeExplosions.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a config to remove all sorts of explosions!
+commands:
+  AntiTNT:
+    description: Main command of restricting peoples use of TNT
+  AntiExplosions:
+    description: Main command of restricting all explosions
+permissions:
+   SafeExplosions.*:
+     description: Gives access to all SafeExplosions commands
+     children:
+       AntiExplosions.*: true
+       AntiTNT.*: true
+   AntiExplosions.*:
+     description: Gives access to all EnchantsPLUS commands
+     children:
+       AntiExplosions.Reset: true
+       AntiExplosions.Enable: true
+       AntiExplosions.Disable: true
+       AntiExplosions.Blacklist: true
+       AntiExplosions.Whitelist: true
+       AntiExplosions.MainCommand: true
+       AntiExplosions.removeFrom: true
+   AntiTNT.*:
+     description: Gives access to all AntiTNT commands
+     children:
+       AntiTNT.Reset: true
+       AntiTNT.Disable: true
+       AntiTNT.Enable: true
+       AntiTNT.setInterval: true
+       AntiTNT.MainCommand: true
+       AntiTNT.setRestriction: true
+       AntiTNT.setSubtractAmount: true
+   AntiTNT.MainCommand:
+     description: Allows you to use the main AntiTNT command
+     default: false
+   AntiTNT.setSubtractAmount:
+     description: Allows you to use the main AntiTNT command
+     default: false
+   AntiTNT.Reset:
+     description: Allows you to use the AntiTNT config reset
+     default: false
+   AntiTNT.Disable:
+     description: Allows you to disable the AntiTNT function
+     default: false
+   AntiTNT.Enable:
+     description: Allows you to enable the AntiTNT function
+     default: false
+   AntiTNT.setInterval:
+     description: Allows you to change the interval of when you can place a TNT extra
+     default: false
+   AntiTNT.setRestriction:
+     description: Allows you to set the max of TNT placed
+     default: false
+   AntiExplosions.MainCommand:
+     description: Allows you to use the main AntiExplosions command
+     default: false
+   AntiExplosions.Disable:
+     description: Allows you to disable the AntiExplosions feature
+     default: false
+   AntiExplosions.Reset:
+     description: Allows you to reset the AntiExplosions config
+     default: false
+   AntiExplosions.Enable:
+     description: Allows you to enable the AntiExplosions feature
+     default: false
+   AntiExplosions.Blacklist:
+     description: Allows you to blacklist certain explosions
+     default: false
+   AntiExplosions.Whitelist:
+     description: Allows you to whitelist certain explosions
+     default: false
+   AntiExplosions.removeFrom:
+     description: Allows you to modify the lists of certain explosions
+     default: false

@@ -1,0 +1,14 @@
+name: OPPasswordProtect
+main: net.nielsbwashere.src.OPPassword.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: prevents ops from using commands unless they login
+commands:
+  login:
+    description: Allows you to login
+  register:
+    description: Allows you to register
+permissions:
+   OPPasswordProtect.Protect:
+     description: Allows you to register and login
+     default: false

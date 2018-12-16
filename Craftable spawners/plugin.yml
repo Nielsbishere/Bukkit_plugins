@@ -1,0 +1,5 @@
+name: CraftableSpawners
+main: net.nielsbwashere.src.CraftableSpawners.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: Adds in craftable spawners!

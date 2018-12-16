@@ -1,0 +1,23 @@
+name: BanItemsFACTIONSandWORLDGUARD
+main: net.nielsbwashere.src.BanItems.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: allows you to ban items in every worldguard region and faction that is not yours
+depend: [Factions, WorldGuard]
+commands:
+  banItem:
+    description: Bans a certain item from use
+  unbanItem:
+    description: Unbans a certain item from use
+permissions:
+   BanItemFactionWG.*:
+     description: Gives access to all BanItems commands
+     children:
+       BanItemFactionWG.Ban: true
+       BanItemFactionWG.Unban: true
+   BanItemFactionWG.Ban:
+     description: Allows you to ban an item
+     default: false
+   BanItemFactionWG.Unban:
+     description: Allows you to unban an item
+     default: false

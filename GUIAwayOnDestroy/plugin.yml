@@ -1,0 +1,17 @@
+name: InventoryGlitch
+main: net.nielsbwashere.src.GUIAwayOnDestroy.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: Fixes a container duplication glitch
+commands:
+  addGlitchingInventory:
+    description: Reports a block inventory as glitched
+  removeGlitchingInventory:
+    description: Undos a report of a block inventory being glitched
+permissions:
+   InventoryGlitch.addGlitchingInventory:
+     description: Allows you to report glitching inventories
+     default: false
+   InventoryGlitch.removeGlitchingInventory:
+     description: Allows you to undo reports of glitching inventories
+     default: false

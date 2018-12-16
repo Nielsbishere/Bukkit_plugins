@@ -1,0 +1,5 @@
+name: DispensersPLUS
+main: net.nielsbwashere.src.DispensersPLUS.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: allows you to use tools in dispensers

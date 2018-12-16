@@ -1,0 +1,5 @@
+name: SpecialMobs
+main: net.nielsbwashere.src.SpecialMobs.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a system for mobs to be stronger overtime

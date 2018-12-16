@@ -1,0 +1,10 @@
+ name: Ultimate Apocalyptic Survival
+ version: 0.0.0.1
+ description: The official UAS plugin
+ author: Nyto
+ authors: [nielsbwashere] 
+ website: nielsbwashere.weebly.com
+ main: net.nielsbwashere.UAS.src.Core
+ commands:
+   setTenebrae:
+     description: Sets the tenebrae dungeon location

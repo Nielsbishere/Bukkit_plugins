@@ -1,0 +1,12 @@
+name: BanMobs
+main: net.nielsbwashere.src.BanMobs.Core
+version: 1.6.4.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: Allows you to ban mobs in certain worlds
+commands:
+  BanMobs:
+    description: Bans mobs
+permissions:
+   BanMobs:
+     description: Allows you to use the BanMobs command
+     default: false

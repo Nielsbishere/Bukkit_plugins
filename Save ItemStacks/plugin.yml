@@ -1,0 +1,12 @@
+ name: Chest Reload
+ version: 0.1
+ description: The official Chest Reload plugin
+ author: Nyto
+ authors: [nielsbwashere] 
+ website: nielsbwashere.weebly.com
+ main: net.chests.src.Main
+ commands:
+   reloadChests:
+     description: Reloads the chests
+   addChest:
+     description: Adds a chest to be refilled

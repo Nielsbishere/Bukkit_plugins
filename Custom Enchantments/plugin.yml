@@ -1,0 +1,7 @@
+ name: Extra enchants
+ version: 0.1
+ description: The official extra enchants plugin
+ author: Nyto
+ authors: [nielsbwashere] 
+ website: nielsbwashere.weebly.com
+ main: net.enchants.src.Core

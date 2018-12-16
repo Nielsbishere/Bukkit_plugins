@@ -1,0 +1,5 @@
+name: NetherExpansion
+main: net.nielsbwashere.src.NetherExpansion.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in new nether tools

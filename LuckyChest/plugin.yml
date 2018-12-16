@@ -1,0 +1,8 @@
+name: LuckyChest
+main: net.nielsbwashere.src.LuckyChest.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds lucky chests
+commands:
+  luckyChest:
+    description: gives a lucky chest

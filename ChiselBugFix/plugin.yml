@@ -1,0 +1,5 @@
+name: ChiselBugFix
+main: net.nielsbwashere.src.ChiselBugFix.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: fixes the chisel exploit

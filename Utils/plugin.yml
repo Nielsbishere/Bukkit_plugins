@@ -1,0 +1,155 @@
+name:  ThePixelPack roleplay plugin
+main: pp.nielsbwashere.plugin.main
+version: 1.6.4.0.1
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a lot of cool neat stuff
+commands:
+  Ignore:
+    description: ignores players
+  Unignore:
+    description: unignores players
+  unvanish:
+    description: unvanishes players
+  vanish:
+    description: vanishes players
+  showplayer:
+    description: shows <player>
+  hideplayer:
+    description: hides <player>
+  changename:
+    description: changes your name
+  sethome:
+    description: sets your home
+  home:
+    description: brings you home
+  protect:
+    description: made for nielsbwashere to protect his home from zalto's
+  setspawn:
+    description: Sets the spawn
+  spawn:
+    description: Warps to spawn
+  fakedeath:
+    description: Fakes the death of a player
+  fakeleave:
+    description: Fakes the leaving of a player
+  fakejoin:
+    description: Fakes the joining of a player
+  getLucky:
+    description: Tries to get lucky 10 percent chance for lucky block 2 percent chance for pandora box
+  setLuckyID:
+    description: Sets the lucky block id
+  setPandoraID:
+    description: Sets the pandora box id
+  setLuckyWorld:
+    description: sets the lucky world spawn
+  money:
+    description: loads of money commands
+  specialAbilities:
+    description: gives you a special item
+permissions:
+    tpp.ignore.you:
+        description: Gives the permission to ignore others for yourself
+    tpp.ignore.*:
+        description: Gives the permission to use ignore without limits
+    tpp.ignore.other:
+        description: Gives the permission to make others ignore other people
+    tpp.unignore.*:
+        description: Gives the permission to use unignore without limits
+    tpp.unignore.you:
+        description: Gives the permission to unignore others for yourself
+    tpp.unignore.other:
+        description: Gives the permission to make others unignore other people
+    tpp.vanish.*:
+        description: Gives the permission to use vanish without limits
+    tpp.vanish.self:
+        description: Gives the permission to vanish yourself
+    tpp.vanish.other:
+        description: Gives the permission to vanish others
+    tpp.unvanish.*:
+        description: Gives the permission to use unvanish without limits
+    tpp.unvanish.self:
+        description: Gives the permission to unvanish yourself
+    tpp.unvanish.other:
+        description: Gives the permission to unvanish others
+    tpp.hideplayer.*:
+        description: Gives the permission to use hideplayer without limits
+    tpp.hideplayer.self:
+        description: Gives the permission to hide players for yourself
+    tpp.hideplayer.other:
+        description: Gives the permission to hide players for others
+    tpp.showplayer.*:
+        description: Gives the permission to use showplayer without limits
+    tpp.showplayer.self:
+        description: Gives the permission to show players for yourself
+    tpp.showplayer.other:
+        description: Gives the permission to show players for others
+    tpp.changename:
+        description: Gives the permission to use changename without limits WARNING changename will change your list name and display name and might crash the server if input is too long
+    tpp.home.[num]:
+        description: Gives the permission to use home num times
+    tpp.home.1:
+        description: Gives the permission to use home 1
+    tpp.home.2:
+        description: Gives the permission to use home 2
+    tpp.home.3:
+        description: Gives the permission to use home 2
+    tpp.sethome.[num]:
+        description: Gives the permission to use sethome num times
+    tpp.sethome.1:
+        description: Gives the permission to use sethome 1
+    tpp.sethome.2:
+        description: Gives the permission to use sethome 2
+    tpp.sethome.3:
+        description: Gives the permission to use sethome 2
+    tpp.setspawn:
+        description: Gives the permission to use setspawn
+    tpp.spawn:
+        description: Gives the permission to use spawn
+    tpp.protect:
+        description: Gives the permission to use protect
+    tpp.fakejoin:
+        description: Gives the permission to use fakejoin WARNING this feature is really trolly and can mess up the minds of players lol
+    tpp.fakeleave:
+        description: Gives the permission to use fakeleave WARNING this feature is really trolly and can mess up the minds of players lol
+    tpp.fakedeath:
+        description: Gives the permission to use fakedeath WARNING this feature is really trolly and can mess up the minds of players lol
+    tpp.getLucky:
+        description: Gives the permission to get lucky 
+    tpp.setLuckyID:
+        description: Gives the permission to set the lucky block id
+    tpp.setPandoraID:
+        description: Gives the permission to set the pandora box id
+    tpp.setLuckyWorld:
+        description: Gives the permission to set the lucky world
+    tpp.god:
+        description: Gives the permission to make yourself a god
+    tpp.fly:
+        description: Gives the permission to fly
+    tpp.nochatdata:
+        description: Bypasses the saving of the chat messages in the Data directory
+    tpp.nocommanddata:
+        description: Bypasses the saving of the command in the Data directory
+    tpp.claimbypass.break:
+        description: Bypasses the break claim and lets you break it anyway
+    tpp.claimbypass.*:
+        description: Bypasses the claim and lets you do anything in the forcefield
+    tpp.claimbypass.place:
+        description: Bypasses the place claim and lets you place it anyway
+    tpp.claimbypass.interact:
+        description: Bypasses the interact claim and lets you interact anyway
+    tpp.claimbypass.pvp:
+        description: Bypasses the pvp claim and lets you pvp anyway
+    tpp.claimbypass.move:
+        description: Bypasses the move claim and lets you move anyway
+    tpp.money.*:
+        description: Gives you permission to all money commands
+    tpp.money:
+        description: Gives you permission to look at your money
+    tpp.money.info:
+        description: Gives you permission to the money info command
+    tpp.money.pPT.info:
+        description: Gives you permission to the pPT info command
+    tpp.money.pPT.*:
+        description: Gives you permission to all the pPT commands
+    tpp.specialAbility:
+        description: Gives you permission to specialAbility

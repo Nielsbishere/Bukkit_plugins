@@ -1,0 +1,8 @@
+name: MovableSpawners
+main: net.nielsbwashere.src.MovableSpawners.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: makes it so you can pickup a spawner using a nether star
+commands:
+  getSpawners:
+    description: Gets all ingame spawners

@@ -1,0 +1,33 @@
+name: SuperSmashMobs
+main: net.nielsbwashere.src.SSM.Core
+version: 1.7.10.1.0
+author: nielsbwashere AKA Nyto Inc Coder
+description: adds in a ssm minigame
+depend: [PlayerPoints]
+commands:
+  ssm:
+    description: basic super smash mobs command
+permissions:
+   SSM.*:
+     description: Gives access to all SuperSmash commands
+     children:
+       SSM.Create: true
+       SSM.Remove: true
+       SSM.Set: true
+       SSM.Add: true
+       SSM.Activate: true
+   SSM.Create:
+     description: Allows you to add arenas and classes
+     default: false
+   SSM.Remove:
+     description: Allows you to remove arenas and classes
+     default: false
+   SSM.Set:
+     description: Allows you to set spawns and inventories
+     default: false
+   SSM.Add:
+     description: Allows you to add classes to arenas
+     default: false
+   SSM.Active:
+     description: Allows you to activate an arena
+     default: false

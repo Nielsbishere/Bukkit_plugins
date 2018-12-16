@@ -1,0 +1,12 @@
+name: MineTime Raiding Votifier
+main: nielsbwasheres.minetimenation.votifier.Vote
+version: 1
+Author: nielsbwashere (Nyto inc)
+description: adds in a few mini games!
+commands:
+  Vote:
+    description: sends you all the links to vote
+
+
+
+

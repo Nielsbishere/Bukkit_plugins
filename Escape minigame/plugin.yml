@@ -1,0 +1,24 @@
+name: Minigame plugin
+main: niels.b.was.here.Base
+version: 0.1
+Author: Nyto Inc Coder AKA nielsbwashere
+description: adds in a few mini games!
+commands:
+  MinigameJoin:
+    description: opens the minigame inventory
+  MinigameLeave:
+    description: gets you out of the minigame you are in
+  SetClearZonePos2:
+    description: Sets x,y,z of pos2 clear zone 1 THIS IS SO NEEDED!
+  SetClearZonePos1:
+    description: Sets x,y,z of pos1 clear zone 1 THIS IS SO NEEDED!
+  setEscapeLobby:
+    description: Sets spawn of the lobby
+  setEscapeArena:
+    description: Sets spawn of the arena
+  setMinigameSpawn:
+    description: Sets spawn of the hub
+
+
+
+

@@ -1,0 +1,25 @@
+name: KeyCrates
+main: net.osomi.src.keycrates.Core
+version: 2.11
+author: Nielsbwashere (Niels Brunekreef) AKA Osomi Coder
+description: Enables you to create crates
+commands:
+  keycrates:
+    description: Lets you edit crates
+permissions:
+  KeyCrates.*:
+    description: Gives you access to all the KeyCrates commands
+    default: op
+    children:
+      KeyCrates.key: true
+      KeyCrates.crate: true
+      KeyCrates.items: true
+  KeyCrates.key:
+    description: Gives you access to give a player a crate key
+    default: op
+  KeyCrates.crate:
+    description: Gives you access to create a crate
+    default: op
+  KeyCrates.items:
+    description: Gives you access to change the items in a crate
+    default: op
